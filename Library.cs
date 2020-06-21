@@ -22,6 +22,7 @@ namespace Library
 
 		public Library(int libraryId, string address)
         {
+			this.books = new List<Book.Book>();
 			this.LibraryId = libraryId;
 			this.Address = address;
         }
